@@ -1,0 +1,7 @@
+Simplified Python version of IDL program PCONV.pro of Ivan Hubeny & Thierry Lanz
+http://nova.astro.umd.edu/
+https://arxiv.org/abs/1706.01937
+
+Example data : fort.7 , fort.9, fort.69
+
+by Tomasz Różański
