@@ -44,7 +44,6 @@ def main():
     parser.add_argument(nargs='?',dest='modelName',default="fort",help="Core of model name, ex. fort; Default = 'fort' ")
 
     args=parser.parse_args()
-    print(args.modelName)
 
     #read files
     dfCovergenceLog=pd.read_table(args.modelName+".9",header=0, skiprows=[0,2],delim_whitespace=True)
