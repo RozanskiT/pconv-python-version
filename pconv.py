@@ -21,7 +21,7 @@ def readModel(filename):
             line = f.readline()
             l=[float(s.replace('D', 'E')) for s in line.split()]
             deepPoints.extend(l)
-                modelAllLines=f.readlines()
+        modelAllLines=f.readlines()
         outList=[]
         lines=[x.strip() for x in modelAllLines]
         for line in lines:
